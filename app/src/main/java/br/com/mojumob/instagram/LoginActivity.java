@@ -1,15 +1,13 @@
-package br.com.mojumob.instagram.ui.activity;
+package br.com.mojumob.instagram;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import br.com.mojumob.instagram.R;
-
-public class EditarPerfilActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_editar_perfil);
+        setContentView(R.layout.activity_login);
     }
 }

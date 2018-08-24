@@ -1,15 +1,13 @@
-package br.com.mojumob.instagram.ui.activity;
+package br.com.mojumob.instagram;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import br.com.mojumob.instagram.R;
-
-public class LoginActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_main);
     }
 }

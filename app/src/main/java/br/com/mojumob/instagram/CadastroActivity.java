@@ -1,15 +1,13 @@
-package br.com.mojumob.instagram.ui.activity;
+package br.com.mojumob.instagram;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import br.com.mojumob.instagram.R;
-
-public class ComentariosActivity extends AppCompatActivity {
+public class CadastroActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_comentarios);
+        setContentView(R.layout.activity_cadastro);
     }
 }
