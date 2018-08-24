@@ -7,15 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.R;
 import com.zomato.photofilters.utils.ThumbnailItem;
-
 import java.util.List;
+import br.com.mojumob.instagram.R;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public class AdapterMiniaturas extends RecyclerView.Adapter<AdapterMiniaturas.MyViewHolder> {
 

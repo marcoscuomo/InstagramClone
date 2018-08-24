@@ -9,29 +9,23 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.bumptech.glide.Glide;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.R;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.activity.ComentariosActivity;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.ConfiguracaoFirebase;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.UsuarioFirebase;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.model.Feed;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.model.PostagemCurtida;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.model.Usuario;
 import com.like.LikeButton;
 import com.like.OnLikeListener;
-
 import java.util.List;
-
+import br.com.mojumob.instagram.R;
+import br.com.mojumob.instagram.helper.ConfiguracaoFirebase;
+import br.com.mojumob.instagram.helper.UsuarioFirebase;
+import br.com.mojumob.instagram.model.Feed;
+import br.com.mojumob.instagram.model.PostagemCurtida;
+import br.com.mojumob.instagram.model.Usuario;
+import br.com.mojumob.instagram.ui.activity.ComentariosActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public class AdapterFeed extends RecyclerView.Adapter<AdapterFeed.MyViewHolder> {
 

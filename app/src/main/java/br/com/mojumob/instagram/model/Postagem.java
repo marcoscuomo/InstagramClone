@@ -5,7 +5,6 @@ import com.google.firebase.database.DatabaseReference;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-
 import br.com.mojumob.instagram.helper.ConfiguracaoFirebase;
 import br.com.mojumob.instagram.helper.UsuarioFirebase;
 

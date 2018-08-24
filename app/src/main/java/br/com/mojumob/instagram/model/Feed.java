@@ -1,8 +1,5 @@
 package br.com.mojumob.instagram.model;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public class Feed {
 

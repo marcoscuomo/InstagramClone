@@ -10,17 +10,14 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.R;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 
 import java.util.List;
 
-/**
- * Created by jamiltondamasceno
- */
+import br.com.mojumob.instagram.R;
+
 
 public class AdapterGrid extends ArrayAdapter<String> {
 

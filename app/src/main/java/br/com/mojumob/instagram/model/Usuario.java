@@ -2,15 +2,11 @@ package br.com.mojumob.instagram.model;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.Exclude;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.ConfiguracaoFirebase;
-
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
+import br.com.mojumob.instagram.helper.ConfiguracaoFirebase;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public class Usuario implements Serializable {
 

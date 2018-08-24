@@ -1,7 +1,7 @@
 package br.com.mojumob.instagram.model;
 
 import com.google.firebase.database.DatabaseReference;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.ConfiguracaoFirebase;
+import br.com.mojumob.instagram.helper.ConfiguracaoFirebase;
 
 
 public class Comentario {

@@ -11,26 +11,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.R;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.activity.PerfilAmigoActivity;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.adapter.AdapterPesquisa;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.ConfiguracaoFirebase;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.RecyclerItemClickListener;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.UsuarioFirebase;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.model.Usuario;
-
 import java.util.ArrayList;
 import java.util.List;
+import br.com.mojumob.instagram.R;
+import br.com.mojumob.instagram.helper.ConfiguracaoFirebase;
+import br.com.mojumob.instagram.helper.RecyclerItemClickListener;
+import br.com.mojumob.instagram.helper.UsuarioFirebase;
+import br.com.mojumob.instagram.model.Usuario;
+import br.com.mojumob.instagram.ui.activity.PerfilAmigoActivity;
+import br.com.mojumob.instagram.ui.adapter.AdapterPesquisa;
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class PesquisaFragment extends Fragment {
 
     //Widget

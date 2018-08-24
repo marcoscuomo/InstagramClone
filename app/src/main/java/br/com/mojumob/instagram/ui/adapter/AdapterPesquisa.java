@@ -7,18 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import com.bumptech.glide.Glide;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.R;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.model.Usuario;
-
 import java.util.List;
-
+import br.com.mojumob.instagram.R;
+import br.com.mojumob.instagram.model.Usuario;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public class AdapterPesquisa extends RecyclerView.Adapter<AdapterPesquisa.MyViewHolder> {
 

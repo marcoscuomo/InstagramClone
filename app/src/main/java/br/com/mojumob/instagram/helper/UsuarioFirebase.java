@@ -3,17 +3,14 @@ package br.com.mojumob.instagram.helper;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.util.Log;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.model.Usuario;
 
-/**
- * Created by jamiltondamasceno
- */
+import br.com.mojumob.instagram.model.Usuario;
+
 
 public class UsuarioFirebase {
 

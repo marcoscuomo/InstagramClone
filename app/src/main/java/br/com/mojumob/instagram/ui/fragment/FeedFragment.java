@@ -8,26 +8,22 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.R;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.adapter.AdapterFeed;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.ConfiguracaoFirebase;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.helper.UsuarioFirebase;
-import com.instagram.cursoandroid.jamiltondamasceno.instagram.model.Feed;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import br.com.mojumob.instagram.R;
+import br.com.mojumob.instagram.helper.ConfiguracaoFirebase;
+import br.com.mojumob.instagram.helper.UsuarioFirebase;
+import br.com.mojumob.instagram.model.Feed;
+import br.com.mojumob.instagram.ui.adapter.AdapterFeed;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class FeedFragment extends Fragment {
 
+    //Atributos
     private RecyclerView recyclerFeed;
     private AdapterFeed adapterFeed;
     private List<Feed> listaFeed = new ArrayList<>();
