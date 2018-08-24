@@ -1,13 +1,15 @@
-package br.com.mojumob.instagram;
+package br.com.mojumob.instagram.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ComentariosActivity extends AppCompatActivity {
+import br.com.mojumob.instagram.R;
+
+public class PerfilAmigoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_comentarios);
+        setContentView(R.layout.activity_perfil_amigo);
     }
 }

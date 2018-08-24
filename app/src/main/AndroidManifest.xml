@@ -9,20 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CadastroActivity" />
-        <activity android:name=".ComentariosActivity" />
-        <activity android:name=".EditarPerfilActivity" />
-        <activity android:name=".FiltroActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".PerfilAmigoActivity" />
-        <activity android:name=".VisualizarPostagemActivity"></activity>
+        <activity android:name=".ui.activity.CadastroActivity" />
+        <activity android:name=".ui.activity.ComentariosActivity" />
+        <activity android:name=".ui.activity.EditarPerfilActivity" />
+        <activity android:name=".ui.activity.FiltroActivity" />
+        <activity android:name=".ui.activity.LoginActivity" />
+        <activity android:name=".ui.activity.PerfilAmigoActivity" />
+        <activity android:name=".ui.activity.VisualizarPostagemActivity"></activity>
     </application>
 
 </manifest>

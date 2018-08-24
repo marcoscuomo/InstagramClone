@@ -1,13 +1,15 @@
-package br.com.mojumob.instagram;
+package br.com.mojumob.instagram.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class VisualizarPostagemActivity extends AppCompatActivity {
+import br.com.mojumob.instagram.R;
+
+public class CadastroActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_visualizar_postagem);
+        setContentView(R.layout.activity_cadastro);
     }
 }
